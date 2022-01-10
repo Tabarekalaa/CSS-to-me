@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+  }
+  
+  ::selection{
+    background-color:#c9a93f ;
+  
+  }
+  
+  
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  /* header */
+  .header{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  
+  }
+  .header .logo{
+    margin-left: 70px;
+    padding-left: 10px;
+  
+  }
+  .header .logo p{
+    font-size: 14px;
+  }
+  .header .logo span{
+    color: rgb(255, 232, 202);
+    font-size: 14px;
+  }
+  
+  .header .social {
+    position: absolute;
+    margin-right: 70px;
+    margin-top: -24px;
+    padding-right: 10px;
+    right: 0;
+  }
+  
+  .header .social ul li{
+    display: inline-block;
+    padding: 7px;
+    font-size: 14px !important;
+  }
+  .header .social ul li i{
+    font-size: 14px !important;
+  }
+  
+  .header .social ul li a:hover i{
+    color: crimson;
+  }
+  /* header */
+  
+  
+  /*-------------------------------------------------------*/
+  
+  /*navbar*/
+  
+  .navbar{
+    background-color: rgba(0, 0, 0, 0.158);
+    z-index: 3;
+    position: relative;
+  }
+  
+  .navbar .edu{
+    font-weight: bold;
+    margin-left: 70px;
+    padding-left: 10px;
+  }
+  
+  
+  .navbar .edu a{
+    font-size: 40px;
+  }
+  
+  .navbar .tools{
+    position:absolute;
+    padding: 10px;
+    right: 0;
+    margin-right: 70px;
+    margin-top: -40px;
+  }
+  
+  .navbar .tools li{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0;
+  
+  }
+  
+  
+  .navbar .tools li a:hover{
+    color: crimson;
+  }
+  
+  /*navbar*/
+  
+  /*-------------------------------------------------------------*/
+  
+  /* about edu */
+  
+  .about-edu {
+    background-image: url(../image/img.jpg);
+    opacity: 0.7;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1021px;
+    z-index: 2;
+    top: -47px;
+  }
+  
+  
+  .about-edu .about-text{
+    margin-left: 70px;
+    padding-left: 10px;
+  }
+  
+  .about-edu .hello-s {
+    margin-top: 168px;
+    position: absolute;
+    font-weight: bold;
+  }
+  
+  .about-edu h1{
+      margin-top: 203px;
+      position: absolute;
+      font-weight: bold;
+      font-size: 34px;
+  }
+  
+  
+  .about-edu .about-p {
+    margin-top: 255px;
+    position: absolute;
+    font-size: 19px;
+    width: 725px;
+  }
+  
+  
+  .about-edu .about-p span a {
+    color: rgb(108 153 255);
+    font-weight: bold;
+  
+  }
+  
+    .about-p span a:hover{
+    color: crimson;
+  }
+  
+  .about-edu .about-text .join {
+    margin-top: 385px;
+    position: absolute;
+    background-color: #ff8787;
+    border-radius: 24px;
+    padding: 18px;
+  }
+  
+  .about-text .join:hover{
+    background-color: brown;
+  }
+  /* about edu */
+  /*---------------------------------------------------*/
+  /*footer*/
+  
+  .footer .one, .two, .three {
+    background-color: rgb(224, 152, 152);
+    width: 382px;
+    height: 382px;
+    position: relative;
+    top: -598px;
+    z-index: 2;
+    margin-left: 91px;
+    margin-top: 22px;
+    display: inline-block;
+    border-radius: 107px;
+  }
+  
+  .one img {
+    left: 161px;
+    top: 35px;
+    position: absolute;
+    border-radius: 17px;
+  }
+  
+  .two img {
+    left: 161px;
+    top: 35px;
+    position: absolute;
+    border-radius: 17px;
+  }
+  
+  .three img {
+    left: 161px;
+    top: 35px;
+    position: absolute;
+    border-radius: 17px;
+  }
+  
+  
+  .one p {
+    position: absolute;
+    left: 173px;
+    top: 90px;
+  }
+  
+  .two p {
+    position: absolute;
+    left: 170px;
+    top: 90px;
+  }
+  
+  .three p {
+    position: absolute;
+    left: 165px;
+    top: 90px;
+  }
+  
+  .footer .one h1 {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 82px;
+  }
+  
+  .footer .two h1 {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 82px;
+  }
+  
+  .footer .three h1 {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 82px;
+  }
+  
+  .footer .one span{
+    text-align: center;
+    position: absolute;
+    top: 238px;
+    left: 113px;
+    width: 132px;
+  }
+  
+  .footer .two span{
+    text-align: center;
+    position: absolute;
+    top: 238px;
+    left: 115px;
+    width: 132px;
+  }
+  
+  .footer .three span{
+    text-align: center;
+    position: absolute;
+    top: 238px;
+    left: 122px;
+    width: 132px;
+  }
+  
+  
+  .footer::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(253 252 249);
+    width: 50px;
+    height: 50px;
+    left: 18px;
+    border-radius: 50px;
+    top: 694px;
+    z-index: 2;
+  }
+  
+  .footer .before a{
+    position: absolute;
+    z-index: 3;
+    top: 707px;
+    left: 35px;
+    color: #e09898;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  
+  .footer::after{
+    position: absolute;
+    content: "";
+    background-color: rgb(253 252 249);
+    width: 50px;
+    height: 50px;
+    right: 18px;
+    border-radius: 50px;
+    top: 694px;
+    z-index: 2;
+  }
+  
+  .footer .after a{
+    position: absolute;
+    z-index: 3;
+    top: 707px;
+    right: 35px;
+    color: #e09898;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*footer*/
