@@ -1,0 +1,185 @@
+a{
+    text-decoration: none;
+}
+
+
+
+
+.border {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 655px;
+    margin: 33px;
+    position: relative;
+}
+
+.photo-1 {
+    margin-top: -444px;
+    margin-left: 40px;
+}
+
+.photo-2 {
+    margin-top: -646px;
+    margin-left: 40px;
+}
+
+
+.text-1 {
+    font-size: 35px;
+    top: 162px;
+    position: absolute;
+    left: 256px;
+}
+
+.text-2 {
+    font-size: 18px;
+    top: 218px;
+    position: absolute;
+    left: 282px;
+}
+
+
+.Button {
+    font-size: 18px;
+    top: 267px;
+    position: absolute;
+    left: 288px;
+    background-color: #212c48;
+    width: 122px;
+    height: 50px;
+    padding: 9px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.Button p a{
+    color: floralwhite;
+}
+
+.text-3 {
+    color: #000;
+    position: absolute;
+    top: 99px;
+    right: 185px;
+    font-size: 35px;
+}
+
+
+.text-4 {
+    color: #000;
+    position: absolute;
+    top: 158px;
+    right: 161px;
+    font-size: 18px;
+    text-align: center;
+    width: 391px;
+}
+
+form{
+    display: inline-block;
+    position:relative;
+
+}
+
+
+.first-name {
+    position: absolute;
+    right: 350px;
+    top: 222px;
+    font-size: 19px;
+}
+
+.last-name {
+    position: absolute;
+    right: 129px;
+    top: 222px;
+    font-size: 19px;
+
+}
+
+input:focus {
+  background-color: rgb(186, 255, 122);
+}
+
+.email {
+    position: absolute;
+    right: 123px;
+    top: 293px;
+    font-size: 19px;
+}
+
+.password {
+    position: absolute;
+    right: 123px;
+    top: 370px;
+    font-size: 19px;
+}
+
+
+.checkbox {
+    position: absolute;
+    right: 316px;
+    top: 457px;
+    font-size: 18px;
+}
+
+.checkbox span{
+    color: goldenrod;
+}
+
+
+.submit {
+    font-size: 18px;
+    top: 513px;
+    position: absolute;
+    left: 959px;
+    background-color: #212c48;
+    width: 425px;
+    height: 50px;
+    padding: 9px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+  
+.submit p a{
+    color: mintcream;
+}
+
+.or {
+    font-size: 17px;
+    top: 572px;
+    position: absolute;
+    right: 280px;
+}
+
+.circle .circle-1, .circle-2, .circle-3 {
+    position: relative;
+    display: inline-block;
+    right: -1061px;
+    top: 472px;
+    margin: 12px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 42px;
+}
+
+.social .twitter, .facebook, .google {
+    position: relative;
+    display: inline-block;
+    right: -1060px;
+    top: 393px;
+    margin: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
